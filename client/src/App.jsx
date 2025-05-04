@@ -73,6 +73,7 @@ function App() {
     )}&weights=${weightsParam}`;
     const filename = `${fontName.replace(/\s+/g, '-')}-${format}-${Date.now()}.zip`;
     handleDownload(url, filename);
+    setFontName('');
   };
 
   return (
