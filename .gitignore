@@ -1,0 +1,14 @@
+# Ignore all node_modules
+**/node_modules/
+
+# Ignore environment files
+.env
+
+# VSCode settings
+.vscode/
+
+# Ignore all logs
+logs/
+
+# Ignore all cache
+cache/
